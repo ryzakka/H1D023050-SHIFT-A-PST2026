@@ -1,4 +1,4 @@
-## Pertanyaan Percabangan
+# Pertanyaan Percabangan
 
 1. Pada kondisi apa program masuk ke blok `if`?  
 2. Pada kondisi apa program masuk ke blok `else`?  
@@ -8,9 +8,9 @@
 
 ---
 
-## Jawaban
+# Jawaban
 
-### 1. Kondisi Masuk ke Blok `if`
+## 1. Kondisi Masuk ke Blok `if`
 
 Program akan masuk ke blok `if` ketika kondisi berikut terpenuhi:
 
@@ -26,7 +26,7 @@ if (timeDelay <= 100)
 
 ---
 
-### 2. Kondisi Masuk ke Blok `else`
+## 2. Kondisi Masuk ke Blok `else`
 
 Program akan masuk ke blok `else` ketika kondisi `if` **tidak terpenuhi**, yaitu:
 
@@ -47,7 +47,7 @@ timeDelay -= 100;
 
 ---
 
-### 3. Fungsi `delay(timeDelay)`
+## 3. Fungsi `delay(timeDelay)`
 
 Fungsi:
 
@@ -69,7 +69,7 @@ delay(timeDelay);
 
 ## 4. Modifikasi Program  
 ### Alur Baru: **Lambat → Cepat → Sedang → Mati (Tanpa Reset)**
-
+![Percabangan Visual](gambarPercabangan.png)
 ### Kode Sumber
 
 ```cpp
