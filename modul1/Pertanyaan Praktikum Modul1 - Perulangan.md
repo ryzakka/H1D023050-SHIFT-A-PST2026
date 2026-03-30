@@ -8,7 +8,8 @@
 <h1>Jawab</h1>
 
 ## 1. Gambaran Skematik LED running
-![Perulangan Running](gambarPerulangan1.png)
+![Perulangan Bolak-balik](gambarPerulangan1.png)
+![Perulangan Dua Bagian](gambarPerulangan2.png)
 ## 2. Menggunakan blok kode perulangan for dan inkremental:
 ``for (int ledPin = 2; ledPin < 9; ledPin++) {
   digitalWrite(ledPin, HIGH); 
@@ -30,13 +31,16 @@ Setelah LED paling kanan (pin 8) mati pada program sebelumnya, perulangan ini me
 Deskripsi Proyek
 Program ini ditulis untuk mengontrol 6 buah LED yang terhubung ke Arduino Uno (Pin 2 hingga 7). Program akan membagi LED menjadi dua grup (3 LED Kiri dan 3 LED Kanan) dan menyalakannya secara bergantian layaknya lampu strobo atau sinyal peringatan.
 
+<img src="gifPerulangan2.gif" width="100%">
+<img src="gifPerulangan1.gif" width="100%">
+
 ### Skematik Pin
 - **Grup Kiri:** Pin 2, 3, 4
 - **Grup Kanan:** Pin 5, 6, 7
 - **Ground:** Dihubungkan ke GND Arduino.
 
 
-![Perulangan Running](gambarPerulangan2.png)
+
 
 ### Kode Program dan Penjelasan (Line-by-Line)
 
