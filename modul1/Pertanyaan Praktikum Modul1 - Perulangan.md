@@ -8,7 +8,7 @@
 <h1>Jawab</h1>
 
 ## 1. Gambaran Skematik LED running
-![Perulangan Running](./modul1/gambarPerulangan1.png)
+![Perulangan Running](gambarPerulangan1.png)
 ## 2. Menggunakan blok kode perulangan for dan inkremental:
 ``for (int ledPin = 2; ledPin < 9; ledPin++) {
   digitalWrite(ledPin, HIGH); 
@@ -34,6 +34,9 @@ Program ini ditulis untuk mengontrol 6 buah LED yang terhubung ke Arduino Uno (P
 - **Grup Kiri:** Pin 2, 3, 4
 - **Grup Kanan:** Pin 5, 6, 7
 - **Ground:** Dihubungkan ke GND Arduino.
+
+
+![Perulangan Running](gambarPerulangan2.png)
 
 ### Kode Program dan Penjelasan (Line-by-Line)
 
