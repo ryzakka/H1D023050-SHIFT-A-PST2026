@@ -8,6 +8,10 @@
 <h1>Jawab</h1>
 
 ## 1. Gambaran Skematik LED running
+### Tampilan Skema
+![Tampilan Skema 1](gambarSkema1.png)
+![Tampilan Skema 2](gambarSkema2.png)
+### Tampilan Sirkuit
 ![Perulangan Bolak-balik](gambarPerulangan1.png)
 ![Perulangan Dua Bagian](gambarPerulangan2.png)
 ## 2. Menggunakan blok kode perulangan for dan inkremental:
