@@ -8,6 +8,7 @@
 <h1>Jawab</h1>
 
 ## 1. Gambaran Skematik LED running
+![Perulangan Running](./modul1/gambarPerulangan1.png)
 ## 2. Menggunakan blok kode perulangan for dan inkremental:
 ``for (int ledPin = 2; ledPin < 9; ledPin++) {
   digitalWrite(ledPin, HIGH); 
