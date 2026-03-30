@@ -1,6 +1,4 @@
-# 📘 Praktikum Sistem Tertanam - Modul 1 Percabangan
-
-## Pertanyaan Praktikum
+## Pertanyaan Percabangan
 
 1. Pada kondisi apa program masuk ke blok `if`?  
 2. Pada kondisi apa program masuk ke blok `else`?  
@@ -10,7 +8,7 @@
 
 ---
 
-## ✅ Jawaban
+## Jawaban
 
 ### 1. Kondisi Masuk ke Blok `if`
 
@@ -72,7 +70,7 @@ delay(timeDelay);
 ## 4. Modifikasi Program  
 ### Alur Baru: **Lambat → Cepat → Sedang → Mati (Tanpa Reset)**
 
-### 📌 Source Code
+### Kode Sumber
 
 ```cpp
 const int ledPin = 6;     // Menentukan pin LED pada pin digital 6
