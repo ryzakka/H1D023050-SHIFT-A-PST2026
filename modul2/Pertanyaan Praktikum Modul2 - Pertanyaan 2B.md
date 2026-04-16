@@ -1,5 +1,7 @@
 ### 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
 
+<img width="946" height="734" alt="image" src="https://github.com/user-attachments/assets/a67c70fb-e4e5-47f9-9963-2c132c937565" />
+<img width="946" height="735" alt="image" src="https://github.com/user-attachments/assets/d6a1f181-cfd8-4b77-a561-ccd4036c8b97" />
 
 **Komponen:**
 * 1x Arduino Uno
