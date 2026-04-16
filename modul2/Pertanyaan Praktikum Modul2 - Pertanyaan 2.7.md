@@ -13,7 +13,7 @@ Berdasarkan praktikum yang telah dilakukan, berikut adalah uraian hasil dari set
 
 ### 2. Bagaimana prinsip kerja dari Seven Segment Display dalam menampilkan angka dan karakter?
 
-
+<img width="929" height="689" alt="image" src="Modul2 - CuplikanSirkuit.gif" />
 
 Seven Segment Display pada dasarnya bekerja dengan mengontrol 8 buah LED dasar (segmen a, b, c, d, e, f, g, dan dp/titik desimal) yang disusun membentuk angka 8. Prinsip kerjanya adalah sebagai berikut:
 
