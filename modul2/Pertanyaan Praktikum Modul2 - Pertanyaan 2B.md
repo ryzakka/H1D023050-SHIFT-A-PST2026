@@ -57,6 +57,8 @@ Jika hanya satu segmen tertentu (misalnya segmen 'b') yang mati sedangkan yang l
 
 # Modifikasi 7-Segment (Counter Up & Down) dengan Dua Pushbutton
 
+<img width="833" height="271" alt="image" src="https://github.com/user-attachments/assets/657ba6e1-14cc-4e81-b91f-3271f8ed896f" />
+
 Program ini mengontrol 7-Segment Display heksadesimal (0-F) menggunakan dua buah tombol. Tombol 1 berfungsi untuk menambah angka (Increment), sedangkan Tombol 2 berfungsi untuk mengurangi angka (Decrement).
 
 **Modifikasi Rangkaian:**
