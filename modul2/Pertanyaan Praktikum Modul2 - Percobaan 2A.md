@@ -1,3 +1,12 @@
+### 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
+
+<img width="946" height="734" alt="image" src="https://github.com/user-attachments/assets/55cbe591-113d-4ec8-9286-3bb8aabd94ba" />
+<br>
+<img width="946" height="735" alt="image" src="https://github.com/user-attachments/assets/6fc8bcb1-1453-473e-be40-ec6706ae84b4" />
+
+
+---
+
 ### 2. Apa yang terjadi jika nilai num lebih dari 15?
 
 Jika fungsi `displayDigit(int num)` menerima nilai `num` lebih dari 15, program akan mengalami *Index Out of Bounds* (membaca memori di luar batas array). Array `digitPattern` hanya memiliki 16 baris elemen (indeks 0 hingga 15). Membaca indeks ke-16 atau lebih akan membuat Arduino membaca data dari alamat memori yang tidak semestinya. Akibatnya, 7-segment akan menampilkan pola acak (*glitch*), dan dalam beberapa kasus dapat menyebabkan mikrokontroler *reset* atau *crash*.
