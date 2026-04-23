@@ -83,3 +83,23 @@ void loop() {
   
   delay(200);                   // Jeda waktu 200 ms agar pembacaan stabil dan layar tidak berkedip (flicker)
 }
+
+
+```
+## 4) Tabel Pengamatan Serial Monitor
+
+Berdasarkan rumus kalkulasi di dalam program:
+* **Voltase (V)** = `Nilai ADC × (5.0 / 1023.0)`
+* **Persen (%)** = `Nilai ADC × (100 / 1023)` (Dibulatkan ke bawah oleh fungsi `map()`)
+
+Berikut adalah hasil perhitungan untuk melengkapi tabel pengamatan:
+
+| ADC | Volt (V) | Persen (%) |
+| :---: | :---: | :---: |
+| 1 | 0.00 | 0 |
+| 21 | 0.10 | 2 |
+| 49 | 0.24 | 4 |
+| 74 | 0.36 | 7 |
+| 96 | 0.47 | 9 |
+
+*(Nilai voltase dibulatkan menjadi 2 angka di belakang koma sesuai standar presisi default fungsi `Serial.print()` pada tipe data float).*
