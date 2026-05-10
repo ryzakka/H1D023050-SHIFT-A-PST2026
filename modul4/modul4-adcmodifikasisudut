@@ -1,0 +1,36 @@
+#include <Servo.h> // library untuk servo motor
+
+Servo myservo; // membuat objek servo
+
+// ===================== PIN SETUP =====================
+const int potensioPin = A0;   // pin analog input
+const int servoPin = 9;       // pin digital untuk servo
+
+// ===================== VARIABEL =====================
+int pos = 0; // sudut servo 
+int val = 0; // nilai ADC 
+
+void setup() {
+  myservo.attach(servoPin);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Membaca nilai ADC potensiometer (0-1023)
+  val = analogRead(potensioPin);
+
+  // Mengubah rentang nilai ADC (0-1023) menjadi sudut servo (30-150 derajat)
+  pos = map(val, 0, 1023, 30, 150); 
+
+  // Menggerakkan servo ke posisi yang telah dipetakan
+  myservo.write(pos);
+
+  // Menampilkan data di Serial Monitor
+  Serial.print("ADC Potensio: ");
+  Serial.print(val);
+  Serial.print(" | Sudut Servo: ");
+  Serial.println(pos);
+
+  // Stabilisasi gerakan servo
+  delay(100);
+}
