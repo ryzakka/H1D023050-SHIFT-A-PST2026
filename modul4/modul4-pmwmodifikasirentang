@@ -1,0 +1,36 @@
+#include <Arduino.h> // library dasar Arduino
+
+// ===================== PIN SETUP =====================
+const int potPin = A0;   // pin analog untuk potensiometer
+const int ledPin = 9;    // pin PWM untuk LED
+
+// ===================== VARIABEL =====================
+int nilaiADC = 0;  // menyimpan nilai mentah potensiometer
+int pwm = 0;       // menyimpan nilai PWM yang sudah dikonversi
+
+void setup() {
+  // Atur pin LED sebagai output
+  pinMode(ledPin, OUTPUT);
+  // Aktifkan komunikasi serial 
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Baca nilai analog dari potensiometer (rentang 0–1023)
+  nilaiADC = analogRead(potPin);
+
+  // Ubah nilai ADC (0–1023) menjadi rentang kecerahan sedang (50–200)
+  pwm = map(nilaiADC, 0, 1023, 50, 200); 
+
+  // Kirim sinyal PWM ke LED
+  analogWrite(ledPin, pwm);
+
+  // Tampilkan data ke Serial Monitor
+  Serial.print("ADC: ");
+  Serial.print(nilaiADC);
+  Serial.print(" | PWM: ");
+  Serial.println(pwm);
+
+  // Delay stabilisasi
+  delay(50);
+}
